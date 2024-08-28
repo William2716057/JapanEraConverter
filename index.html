@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Era and Year Dropdowns</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:white;">
+
+    <h2>Era dropdown</h2>
+    <p>Select an era</p>
+
+    <div class="dropdown">
+        <button class="dropbtn">Era Dropdown</button>
+        <div class="dropdown-content">
+            <a href="#" onclick="updateYearDropdown('Meiji', 45)">Meiji</a>
+            <a href="#" onclick="updateYearDropdown('Taisho', 15)">Taisho</a>
+            <a href="#" onclick="updateYearDropdown('Showa', 64)">Showa</a>
+            <a href="#" onclick="updateYearDropdown('Heisei', 31)">Heisei</a>
+            <a href="#" onclick="updateYearDropdown('Reiwa', 5)">Reiwa</a>
+        </div>
+    </div>
+
+    <h2>Year dropdown</h2>
+    <p>Select a year</p>
+
+    <div class="dropdown">
+        <button class="dropbtn">Year Dropdown</button>
+        <div class="dropdown-content" id="yearDropdown">
+            <!-- Years will be dynamically populated here based on era -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

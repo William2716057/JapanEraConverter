@@ -1,0 +1,3 @@
+C:\Users\Wills\source\repos\JapanEraConverter\JapanEraConverter\obj\Debug\JapanEraConverter.njsproj.AssemblyReference.cache
+C:\Users\Wills\source\repos\JapanEraConverter\JapanEraConverter\obj\Debug\JapanEraConverter.njsproj.CoreCompileInputs.cache
+C:\Users\Wills\source\repos\JapanEraConverter\JapanEraConverter\bin\Microsoft.NodejsTools.WebRole.dll
